@@ -21,6 +21,6 @@ app.use('/', articleRouter)
 app.use('/article', articleRouter)
 app.use('/admin/article', articleRouter)
 
-app.listen(3000, () => {
+app.listen(3001, () => {
     console.log("running on http://localhost:3001")
 })
